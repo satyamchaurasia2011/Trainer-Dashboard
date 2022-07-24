@@ -1,0 +1,32 @@
+.nutrition-det{
+    background-color: #1B222A;
+    border: 8px;
+    padding: 5px 10px;
+    margin-bottom: 15px;
+    div{
+        display: flex;
+       
+        h3{
+            font-size: 12px;
+            font-weight: 500;
+        }
+        p{
+            font-size: 8px;
+            margin-top: 0.4px;
+        }
+    }
+    .detal{
+        justify-content: space-between;
+        margin-bottom: 5px;
+    }
+    .range{
+        height: 10px;
+        background-color: #101317;
+        width: 100%;
+        border-radius: 8px;
+        div{
+            border-radius: 8px;
+            
+        }
+    }
+}

@@ -1,0 +1,77 @@
+[
+    {
+        "userId" : 1,
+        "name" : "Harry Schemdit",
+        "image" : "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dXNlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+        "email" : "harrysch11@gmail.com",
+        "steps" : {
+            "stepsWalked" : 2345,
+            "stepsTarget" : 4000
+        },
+        "workout" : {
+            "performedDate" : "21 Jul",
+            "scheduledDate" : "28 Jul",
+            "feedback" : false
+        },
+        "nutrition" : {
+            "calorieIntake" : 2000,
+            "calorieTarget" : 2800,
+            "proteinConsumed" : 45,
+            "proteinTarget" : 70,
+            "carbConsumed" : 50,
+            "carbTarget" : 70,
+            "fatConsumed" : 30,
+            "fatTarget" : 70
+        }
+    },
+    {
+        "userId" : 2,
+        "name" : "Mark Blaze",
+        "image" : "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+        "email" : "blazemark211@gmail.com",
+        "steps" : {
+            "stepsWalked" : 1345,
+            "stepsTarget" : 5000
+        },
+        "workout" : {
+            "performedDate" : "19 Jul",
+            "scheduledDate" : "19 Jul",
+            "feedback" : true
+        },
+        "nutrition" : {
+            "calorieIntake" : 2434,
+            "calorieTarget" : 2500,
+            "proteinConsumed" : 85,
+            "proteinTarget" : 100,
+            "carbConsumed" : 70,
+            "carbTarget" : 100,
+            "fatConsumed" : 20,
+            "fatTarget" : 100
+        }
+    },
+    {
+        "userId" : 3,
+        "name" : "Henry Rogert",
+        "image" : "https://images.unsplash.com/photo-1567784177951-6fa58317e16b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDExfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60",
+        "email" : "henryrogert2102@gmail.com",
+        "steps" : {
+            "stepsWalked" : 235,
+            "stepsTarget" : 3000
+        },
+        "workout" : {
+            "performedDate" : "18 Jul",
+            "scheduledDate" : "30 Jul",
+            "feedback" : false
+        },
+        "nutrition" : {
+            "calorieIntake" : 434,
+            "calorieTarget" : 3500,
+            "proteinConsumed" : 45,
+            "proteinTarget" : 70,
+            "carbConsumed" : 50,
+            "carbTarget" : 70,
+            "fatConsumed" : 30,
+            "fatTarget" : 70
+        }
+    }
+]

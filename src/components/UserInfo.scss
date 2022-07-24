@@ -1,0 +1,247 @@
+.info-user{
+    display: flex;
+    justify-content: space-between;
+    width: 55%;
+    align-items: center;
+    //steps section - 
+    .stps{
+      display: flex;
+      align-items: center;
+      width: 33%;
+      .prog-bar{
+          width: 70px;
+          height: 70px;
+          padding: 5px;
+          margin-right: 10px;
+          h2{
+            
+              font-size: 12px;
+              margin-top: -5px;
+          }
+          p{
+              font-size: 10px;
+              margin-top: 2px;
+          }
+        }
+      .target-det{
+        width: 13%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+          h2{
+              margin-top: 2px;
+              font-size: 17px;
+              font-weight: 600;
+          }
+          p{
+              font-size: 10px;
+              font-weight: 400;
+              margin-bottom: 5px;
+          }
+      }
+  }
+  //Workout Schedule time section
+  .sch-time{
+    display: flex;
+    align-items: center;
+    width: 33%;
+    .lft-sch{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+        div{
+            display: flex;
+           align-items: center;
+           margin: 8px 16px 5px 0px;
+           h3{
+            font-size: 15px;
+            font-weight: 600;
+            margin-left: 8px;
+           }
+        }
+    }
+    
+  }
+  
+  //Nutrition
+  .nutri-c{
+    display: flex;
+    align-items: stretch;
+    position: relative;
+    width: 33%;
+    .tool-pos{
+      position: absolute;
+      top:90%;
+      right: 0%;
+      z-index: 20;
+    }
+    .pie{
+        width: 70px;
+        height: 70px;
+        padding: 5px;
+        margin-right: 10px;
+    }
+    div{
+        margin-right: 17px;
+        h2{
+          
+            margin-top: 2px;
+            font-size: 17px;
+            font-weight: 600;
+        }
+        p{
+            font-size: 10px;
+            font-weight: 400;
+            margin-bottom: 5px;
+        }
+    }
+    .cal-tar{
+      width: 15%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  }
+
+    // custom.css
+    .CircularProgressbar-path {
+        stroke: #7FD18C;
+      }
+      .CircularProgressbar-trail {
+        stroke: white;
+      }
+      .CircularProgressbar-text {
+        fill: yellow;
+      }
+      .CircularProgressbar-background {
+        fill: green;
+      }
+
+      .icon-a-m{
+        border: 1px solid #101317;
+        padding: 1px 6px;
+        border-radius: "4px";
+        background-color: #101317;
+        font-weight: 600;
+        cursor: pointer;
+      }
+      .right-b{
+        height: 65px;
+        margin-top: 5px;
+        cursor: pointer;
+        border-radius: 5px;
+        width: 15px;
+        
+      }
+      
+  a{
+    text-decoration: none;
+    color: white;
+  }
+
+  
+ //Responsive
+ @media (max-width  :1200px) {
+    .info-user{
+     width: 56%;
+     .stps{
+        .target-det{
+         h2{
+           font-size: 14px;
+         }
+         p{
+           font-size: 8px;
+         }
+       }
+     }
+     .nutri-c{
+       .cal-tar{
+         h2{
+           font-size: 14px;
+         }
+         p{
+           font-size: 8px;
+         }
+       }
+     }
+    }
+   }
+
+@media (max-width : 900px) {
+    .info-user{
+        width: 60%;
+        .stps{
+            width: 31%;
+        }
+        .sch-time{
+            width: 28%;
+            .lft-sch{
+                div{
+                    margin: 8px 8px 5px 0px;
+                    h3{
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+        .nutri-c{
+            width: 34%;
+            .pie{
+                padding: 0;
+            }
+        }
+    }
+
+}
+
+@media (max-width:767px) {
+    .info-user{
+        width: 100%;
+        .stps{
+            .prog-bar{
+                width: 50px;
+                height: 50px;
+                padding: 0;
+                h2{
+                    font-size: 8px;
+                    margin-top: -12px;
+                }
+                p{
+                    font-size: 7px;
+                }
+            }
+            .target-det{
+                h2{
+                    font-size: 10px;
+                }
+            }
+
+        }
+        .sch-time{
+            width: 32%;
+            .lft-sch{
+                div{
+                    margin: 0px 8px 4px 0px;
+                    svg{
+                        width: 12px;
+                    }
+                    h3{
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+        .nutri-c{
+         
+            .cal-tar{
+                h2{
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+    .right-b{
+        width: 11px;
+    }
+}
